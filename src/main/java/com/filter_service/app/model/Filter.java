@@ -1,9 +1,9 @@
 package com.filter_service.app.model;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
-
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,36 +13,37 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "filter-inventory")
+@Entity
+@Table(name = "filter-inventory", schema = "filterdb")
 public class Filter {
 	@Id
 	private String id;
 	
-	@Field(name = "carId")
+	@Column(name = "car_id")
 	private String carId;
 	
-	@Field(name = "brandId")
+	@Column(name = "brand_id")
 	private String brandId;
 
-	@Field(name = "brandName")
+	@Column(name = "brand_name")
 	private String brandName;
 
-	@Field(name = "modelId")
+	@Column(name = "model_id")
 	private String modelId;
 
-	@Field(name = "modelName")
+	@Column(name = "model_name")
 	private String modelName;
 
-	@Field(name = "dailyPrice")
+	@Column(name = "daily_price")
 	private double dailyPrice;
 
-	@Field(name = "modelYear")
+	@Column(name = "model_year")
 	private int modelYear;
 
-	@Field(name = "plate")
+	@Column(name = "plate")
 	private String plate;
 
-	@Field(name = "state")
+	@Column(name = "state")
 	private int state;
 
 }

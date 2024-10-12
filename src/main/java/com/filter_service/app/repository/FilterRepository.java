@@ -2,11 +2,11 @@ package com.filter_service.app.repository;
 
 import java.util.List;
 
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.filter_service.app.model.Filter;
 
-public interface FilterRepository extends MongoRepository<Filter, String> {
+public interface FilterRepository extends JpaRepository<Filter, String> {
 	
 	Filter findByCarId(String carId);
 	Filter findByPlate(String plate);
