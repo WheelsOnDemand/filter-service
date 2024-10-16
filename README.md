@@ -1,6 +1,6 @@
 ## Filter Service
 
-This is a simple filter service that allows you to filter cars by brand, model, and year.
+Filter service allows you to filter cars by brand, model, and year.
 
 <table>
     <thead>
