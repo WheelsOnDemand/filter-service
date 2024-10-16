@@ -1,0 +1,51 @@
+## Filter Service
+
+This is a simple filter service that allows you to filter cars by brand, model, and year.
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Filters</th>
+        </tr>
+    </thead>
+    <tbody>
+        <code>http://[host]:[port]/wheelsondemand/filter/api/filters</code>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/brand?brandName={brandName}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/model?modelName={modelName}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/plate?plate={plate}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/year?modelYear={modelYear}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/brand-search?brandName={brandName}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/model-search?modelName={modelName}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/plate-search?plate={plate}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/state?state={state}</td>
+        </tr>
+    </tbody>
+</table>
