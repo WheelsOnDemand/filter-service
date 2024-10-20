@@ -13,10 +13,6 @@ Filter service allows you to filter cars by brand, model, and year.
         <code>http://[host]:[port]/wheelsondemand/filter/api/filters</code>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters</td>
-        </tr>
-        <tr>
-            <td>$\textcolor{cornflowerblue}{GET}$</td>
             <td>/filters/car?carName={carName}</td>
         </tr>
         <tr>
