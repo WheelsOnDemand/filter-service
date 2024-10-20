@@ -13,27 +13,39 @@ Filter service allows you to filter cars by brand, model, and year.
         <code>http://[host]:[port]/wheelsondemand/filter/api/filters</code>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/car?carName={carName}</td>
+            <td>/filters</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/brand?brandName={brandName}</td>
+            <td>/filters/brand?brandName=porsche</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/model?modelName={modelName}</td>
+            <td>/filters/model?modelName=e-200</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/brand/all</td>
+            <td>/filters/plate?plate=61%20DC%2199</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/car/all</td>
+            <td>/filters/year?modelYear=2022</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/model/all</td>
+            <td>/filters/brand-search?brandName=Au</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/model-search?modelName=A</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/plate-search?plate=1</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/state?state=1</td>
         </tr>
     </tbody>
 </table>
