@@ -17,35 +17,35 @@ Filter service allows you to filter cars by brand, model, and year.
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/brand?brandName=porsche</td>
+            <td>/filters/brand?brandName={brandName}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/model?modelName=e-200</td>
+            <td>/filters/model?modelName={modelName}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/plate?plate=61%20DC%2199</td>
+            <td>/filters/plate?plate={plate}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/year?modelYear=2022</td>
+            <td>/filters/year?modelYear={modelYear}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/brand-search?brandName=Au</td>
+            <td>/filters/brand-search?brandName={brandName}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/model-search?modelName=A</td>
+            <td>/filters/model-search?modelName={modelName}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/plate-search?plate=1</td>
+            <td>/filters/plate-search?plate={plate}</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/state?state=1</td>
+            <td>/filters/state?state={state}</td>
         </tr>
     </tbody>
 </table>
