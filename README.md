@@ -17,6 +17,10 @@ Filter service allows you to filter cars by brand, model, and year.
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
+            <td>/filters/car?carName={carName}</td>
+        </tr>
+        <tr>
+            <td>$\textcolor{cornflowerblue}{GET}$</td>
             <td>/filters/brand?brandName={brandName}</td>
         </tr>
         <tr>
@@ -25,27 +29,15 @@ Filter service allows you to filter cars by brand, model, and year.
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/plate?plate={plate}</td>
+            <td>/filters/brand/all</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/year?modelYear={modelYear}</td>
+            <td>/filters/car/all</td>
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/brand-search?brandName={brandName}</td>
-        </tr>
-        <tr>
-            <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/model-search?modelName={modelName}</td>
-        </tr>
-        <tr>
-            <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/plate-search?plate={plate}</td>
-        </tr>
-        <tr>
-            <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/filters/state?state={state}</td>
+            <td>/filters/model/all</td>
         </tr>
     </tbody>
 </table>
